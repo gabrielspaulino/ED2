@@ -1,0 +1,13 @@
+C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\TP01\TP01\bin\Debug\netcoreapp3.1\TP01.exe
+C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\TP01\TP01\bin\Debug\netcoreapp3.1\TP01.deps.json
+C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\TP01\TP01\bin\Debug\netcoreapp3.1\TP01.runtimeconfig.json
+C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\TP01\TP01\bin\Debug\netcoreapp3.1\TP01.runtimeconfig.dev.json
+C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\TP01\TP01\bin\Debug\netcoreapp3.1\TP01.dll
+C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\TP01\TP01\bin\Debug\netcoreapp3.1\TP01.pdb
+C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\TP01\TP01\obj\Debug\netcoreapp3.1\TP01.csprojAssemblyReference.cache
+C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\TP01\TP01\obj\Debug\netcoreapp3.1\TP01.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\TP01\TP01\obj\Debug\netcoreapp3.1\TP01.AssemblyInfoInputs.cache
+C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\TP01\TP01\obj\Debug\netcoreapp3.1\TP01.AssemblyInfo.cs
+C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\TP01\TP01\obj\Debug\netcoreapp3.1\TP01.dll
+C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\TP01\TP01\obj\Debug\netcoreapp3.1\TP01.pdb
+C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\TP01\TP01\obj\Debug\netcoreapp3.1\TP01.genruntimeconfig.cache
