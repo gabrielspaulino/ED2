@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabri\\Desktop\\trabs\\ED\\TP01\\TP01\\TP01.csproj": {}
+    "C:\\Users\\gabri\\Desktop\\trabs\\ED\\Contato\\Contato\\Contato.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabri\\Desktop\\trabs\\ED\\TP01\\TP01\\TP01.csproj": {
+    "C:\\Users\\gabri\\Desktop\\trabs\\ED\\Contato\\Contato\\Contato.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\Desktop\\trabs\\ED\\TP01\\TP01\\TP01.csproj",
-        "projectName": "TP01",
-        "projectPath": "C:\\Users\\gabri\\Desktop\\trabs\\ED\\TP01\\TP01\\TP01.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\Desktop\\trabs\\ED\\Contato\\Contato\\Contato.csproj",
+        "projectName": "Contato",
+        "projectPath": "C:\\Users\\gabri\\Desktop\\trabs\\ED\\Contato\\Contato\\Contato.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\Desktop\\trabs\\ED\\TP01\\TP01\\obj\\",
+        "outputPath": "C:\\Users\\gabri\\Desktop\\trabs\\ED\\Contato\\Contato\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",

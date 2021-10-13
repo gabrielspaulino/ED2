@@ -11,3 +11,17 @@ C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\TP01\TP01\obj\Debug\
 C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\TP01\TP01\obj\Debug\netcoreapp3.1\TP01.dll
 C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\TP01\TP01\obj\Debug\netcoreapp3.1\TP01.pdb
 C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\TP01\TP01\obj\Debug\netcoreapp3.1\TP01.genruntimeconfig.cache
+C:\Users\gabri\Desktop\trabs\ED\TP01\TP01\bin\Debug\netcoreapp3.1\TP01.exe
+C:\Users\gabri\Desktop\trabs\ED\TP01\TP01\bin\Debug\netcoreapp3.1\TP01.deps.json
+C:\Users\gabri\Desktop\trabs\ED\TP01\TP01\bin\Debug\netcoreapp3.1\TP01.runtimeconfig.json
+C:\Users\gabri\Desktop\trabs\ED\TP01\TP01\bin\Debug\netcoreapp3.1\TP01.runtimeconfig.dev.json
+C:\Users\gabri\Desktop\trabs\ED\TP01\TP01\bin\Debug\netcoreapp3.1\TP01.dll
+C:\Users\gabri\Desktop\trabs\ED\TP01\TP01\bin\Debug\netcoreapp3.1\TP01.pdb
+C:\Users\gabri\Desktop\trabs\ED\TP01\TP01\obj\Debug\netcoreapp3.1\TP01.csproj.AssemblyReference.cache
+C:\Users\gabri\Desktop\trabs\ED\TP01\TP01\obj\Debug\netcoreapp3.1\TP01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Desktop\trabs\ED\TP01\TP01\obj\Debug\netcoreapp3.1\TP01.AssemblyInfoInputs.cache
+C:\Users\gabri\Desktop\trabs\ED\TP01\TP01\obj\Debug\netcoreapp3.1\TP01.AssemblyInfo.cs
+C:\Users\gabri\Desktop\trabs\ED\TP01\TP01\obj\Debug\netcoreapp3.1\TP01.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\trabs\ED\TP01\TP01\obj\Debug\netcoreapp3.1\TP01.dll
+C:\Users\gabri\Desktop\trabs\ED\TP01\TP01\obj\Debug\netcoreapp3.1\TP01.pdb
+C:\Users\gabri\Desktop\trabs\ED\TP01\TP01\obj\Debug\netcoreapp3.1\TP01.genruntimeconfig.cache

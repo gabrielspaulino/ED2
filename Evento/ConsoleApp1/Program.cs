@@ -14,7 +14,7 @@ namespace ConsoleApp1
             do
             {
                 Console.WriteLine("\nDigite de acordo com o que quer fazer:\n" +
-                "0.Sair\n " +
+                "0.Sair\n" +
                 "1.Adicionar evento(escolher o dia, onde 1 = SEG, 2 = TER, ..., 6 = SAB)\n" +
                 "2.Pesquisar evento(deverá retornar os dados do evento + participantes)\n" +
                 "3.Listar eventos(informar dados básicos do evento + qtde participantes)\n" +
