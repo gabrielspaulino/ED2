@@ -10,7 +10,7 @@ namespace Contato
             int opcao = 0;
             do
             {
-                Console.Write("\n 0. Sair \n" +
+                Console.Write("\n 0.Sair \n" +
                     " 1.Adicionar contato \n" +
                     " 2.Pesquisar contato \n" +
                     " 3.Alterar contato \n" +
@@ -74,6 +74,9 @@ namespace Contato
                         {
                             Console.WriteLine(c.ToString());
                         }
+                        break;
+                    default:
+                        Console.Write("Opção inválida");
                         break;
                 }
             } while (opcao > 0 && opcao <= 5);
