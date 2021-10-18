@@ -12,3 +12,17 @@ C:\Users\gabri\Desktop\trabs\ED\Evento\Contato\Contato\obj\Debug\netcoreapp3.1\C
 C:\Users\gabri\Desktop\trabs\ED\Evento\Contato\Contato\obj\Debug\netcoreapp3.1\Contato.dll
 C:\Users\gabri\Desktop\trabs\ED\Evento\Contato\Contato\obj\Debug\netcoreapp3.1\Contato.pdb
 C:\Users\gabri\Desktop\trabs\ED\Evento\Contato\Contato\obj\Debug\netcoreapp3.1\Contato.genruntimeconfig.cache
+C:\Users\gabri\Desktop\trabs\ED\Contato\Contato\bin\Debug\netcoreapp3.1\Contato.exe
+C:\Users\gabri\Desktop\trabs\ED\Contato\Contato\bin\Debug\netcoreapp3.1\Contato.deps.json
+C:\Users\gabri\Desktop\trabs\ED\Contato\Contato\bin\Debug\netcoreapp3.1\Contato.runtimeconfig.json
+C:\Users\gabri\Desktop\trabs\ED\Contato\Contato\bin\Debug\netcoreapp3.1\Contato.runtimeconfig.dev.json
+C:\Users\gabri\Desktop\trabs\ED\Contato\Contato\bin\Debug\netcoreapp3.1\Contato.dll
+C:\Users\gabri\Desktop\trabs\ED\Contato\Contato\bin\Debug\netcoreapp3.1\Contato.pdb
+C:\Users\gabri\Desktop\trabs\ED\Contato\Contato\obj\Debug\netcoreapp3.1\Contato.csproj.AssemblyReference.cache
+C:\Users\gabri\Desktop\trabs\ED\Contato\Contato\obj\Debug\netcoreapp3.1\Contato.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Desktop\trabs\ED\Contato\Contato\obj\Debug\netcoreapp3.1\Contato.AssemblyInfoInputs.cache
+C:\Users\gabri\Desktop\trabs\ED\Contato\Contato\obj\Debug\netcoreapp3.1\Contato.AssemblyInfo.cs
+C:\Users\gabri\Desktop\trabs\ED\Contato\Contato\obj\Debug\netcoreapp3.1\Contato.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\trabs\ED\Contato\Contato\obj\Debug\netcoreapp3.1\Contato.dll
+C:\Users\gabri\Desktop\trabs\ED\Contato\Contato\obj\Debug\netcoreapp3.1\Contato.pdb
+C:\Users\gabri\Desktop\trabs\ED\Contato\Contato\obj\Debug\netcoreapp3.1\Contato.genruntimeconfig.cache

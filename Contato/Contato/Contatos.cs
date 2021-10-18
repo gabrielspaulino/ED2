@@ -15,17 +15,14 @@ namespace Contato
 
         public Contatos()
         {
-            List<Contato> agenda = new List<Contato>();
+            agenda = new List<Contato>();
         }
 
         public bool adicionar(Contato c)
         {
-            foreach (Contato contato in agenda)
+            if(pesquisar(c) != null)
             {
-                if(contato.Equals(c))
-                {
-                    return false;
-                }
+                return false;
             }
             agenda.Add(c);
             return true;
@@ -33,11 +30,14 @@ namespace Contato
 
         public Contato pesquisar(Contato c)
         {
-            foreach (Contato contato in agenda)
+            if(this.Equals(c))
             {
-                if(contato.Equals(c))
+                foreach(Contato contato in this.agenda)
                 {
-                    return contato;
+                    if(contato.Email == c.Email)
+                    {
+                        return contato;
+                    }
                 }
             }
             return null;
@@ -45,52 +45,48 @@ namespace Contato
 
         public bool alterar(Contato c)
         {
-            foreach (Contato contato in agenda)
+            Contato pesquisar = this.pesquisar(c);
+            if (pesquisar != null)
             {
-                if (contato.Equals(c))
-                {
-                    Console.Write("Digite o novo email: ");
-                    string email = Convert.ToString(Console.ReadLine());
-                    Console.Write("Digite o novo nome: ");
-                    string nome = Convert.ToString(Console.ReadLine());
-                    Console.Write("Digite o novo telefone: ");
-                    string telefone = Convert.ToString(Console.ReadLine());
-                    Console.WriteLine("Data de nascimento");
-                    Console.Write("Dia:");
-                    int dia = Convert.ToInt32(Console.ReadLine());
-                    Console.Write("Mês:");
-                    int mes = Convert.ToInt32(Console.ReadLine());
-                    Console.Write("Ano:");
-                    int ano = Convert.ToInt32(Console.ReadLine());
-                    Data dtNasc = new Data(dia, mes, ano);
-                    contato.Email = email;
-                    contato.Nome = nome;
-                    contato.Telefone = telefone;
-                    contato.DtNasc = dtNasc;
-                }
+                Console.Write("Digite o novo email: ");
+                string email = Convert.ToString(Console.ReadLine());
+                Console.Write("Digite o novo nome: ");
+                string nome = Convert.ToString(Console.ReadLine());
+                Console.Write("Digite o novo telefone: ");
+                string telefone = Convert.ToString(Console.ReadLine());
+                Console.WriteLine("Data de nascimento");
+                Console.Write("Dia:");
+                int dia = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Mês:");
+                int mes = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Ano:");
+                int ano = Convert.ToInt32(Console.ReadLine());
+                Data dtNasc = new Data(dia, mes, ano);
+                pesquisar.Email = email;
+                pesquisar.Nome = nome;
+                pesquisar.Telefone = telefone;
+                pesquisar.DtNasc = dtNasc;
+                return true;
             }
             return false;
         }
 
         public bool remover(Contato c)
         {
-            foreach (Contato contato in agenda)
+            Contato pesquisar = this.pesquisar(c);
+            if(pesquisar != null)
             {
-                if (contato.Equals(c))
-                {
-                    agenda.Remove(contato);
-                    return true;
-                }
+                agenda.Remove(pesquisar);
+                return true;
             }
             return false;
         }
 
-        public override bool Equals(Object obj)
+        public override bool Equals(object obj)
         {
-            Contato c = (Contato)obj;
-            foreach (Contato contato in agenda)
+            foreach (Contato c in this.agenda)
             {
-                if(contato.Telefone == c.Telefone)
+                if (c.Email == ((Contato)obj).Email)
                 {
                     return true;
                 }

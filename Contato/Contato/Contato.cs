@@ -58,7 +58,7 @@ namespace Contato
 
         public override string ToString()
         {
-            return "Email: " + email +
+            return "\nEmail: " + email +
                 "\nNome: " + nome +
                 "\nTelefone: " + telefone +
                 "\nData de nascimento: " + dtNasc.ToString() +
