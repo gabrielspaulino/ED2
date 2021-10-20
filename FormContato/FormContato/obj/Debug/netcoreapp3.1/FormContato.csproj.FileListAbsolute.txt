@@ -1,0 +1,16 @@
+C:\Users\gabri\Desktop\trabs\ED\FormContato\FormContato\bin\Debug\netcoreapp3.1\FormContato.exe
+C:\Users\gabri\Desktop\trabs\ED\FormContato\FormContato\bin\Debug\netcoreapp3.1\FormContato.deps.json
+C:\Users\gabri\Desktop\trabs\ED\FormContato\FormContato\bin\Debug\netcoreapp3.1\FormContato.runtimeconfig.json
+C:\Users\gabri\Desktop\trabs\ED\FormContato\FormContato\bin\Debug\netcoreapp3.1\FormContato.runtimeconfig.dev.json
+C:\Users\gabri\Desktop\trabs\ED\FormContato\FormContato\bin\Debug\netcoreapp3.1\FormContato.dll
+C:\Users\gabri\Desktop\trabs\ED\FormContato\FormContato\bin\Debug\netcoreapp3.1\FormContato.pdb
+C:\Users\gabri\Desktop\trabs\ED\FormContato\FormContato\obj\Debug\netcoreapp3.1\FormContato.csproj.AssemblyReference.cache
+C:\Users\gabri\Desktop\trabs\ED\FormContato\FormContato\obj\Debug\netcoreapp3.1\FormContato.Form1.resources
+C:\Users\gabri\Desktop\trabs\ED\FormContato\FormContato\obj\Debug\netcoreapp3.1\FormContato.csproj.GenerateResource.cache
+C:\Users\gabri\Desktop\trabs\ED\FormContato\FormContato\obj\Debug\netcoreapp3.1\FormContato.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Desktop\trabs\ED\FormContato\FormContato\obj\Debug\netcoreapp3.1\FormContato.AssemblyInfoInputs.cache
+C:\Users\gabri\Desktop\trabs\ED\FormContato\FormContato\obj\Debug\netcoreapp3.1\FormContato.AssemblyInfo.cs
+C:\Users\gabri\Desktop\trabs\ED\FormContato\FormContato\obj\Debug\netcoreapp3.1\FormContato.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\trabs\ED\FormContato\FormContato\obj\Debug\netcoreapp3.1\FormContato.dll
+C:\Users\gabri\Desktop\trabs\ED\FormContato\FormContato\obj\Debug\netcoreapp3.1\FormContato.pdb
+C:\Users\gabri\Desktop\trabs\ED\FormContato\FormContato\obj\Debug\netcoreapp3.1\FormContato.genruntimeconfig.cache
