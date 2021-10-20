@@ -44,6 +44,7 @@ namespace FormContato
 
         private void buttonExcluir_Click(object sender, EventArgs e)
         {
+            listBox1.Items.Clear();
             string email = Convert.ToString(textBoxEmail.Text);
             string nome = Convert.ToString(textBoxNome.Text);
             string telefone = Convert.ToString(textBoxFone.Text);
@@ -52,7 +53,7 @@ namespace FormContato
             int ano = Convert.ToInt32(textBoxAno.Text);
             Data dtNasc = new Data(dia, mes, ano);
             Contato contato = new Contato(email, nome, telefone, dtNasc);
-            contatos.remover(contato);
+            listBox1.Items.Add(contatos.remover(contato) ? "Removido" : "Não encontrado");
         }
 
         private void buttonPesquisar_Click(object sender, EventArgs e)
@@ -67,7 +68,14 @@ namespace FormContato
             Data dtNasc = new Data(dia, mes, ano);
             Contato contato = new Contato(email, nome, telefone, dtNasc);
             Contato encontrado = contatos.pesquisar(contato);
-            listBox1.Items.Add(encontrado.ToString());
+            if (encontrado == null)
+            {
+                listBox1.Items.Add("Contato não encontrado");
+            }
+            else
+            {
+                listBox1.Items.Add(encontrado.ToString());
+            }
         }
 
         private void buttonListar_Click(object sender, EventArgs e)
