@@ -26,7 +26,6 @@ namespace FormContato
             textBoxDia.Clear();
             textBoxMes.Clear();
             textBoxAno.Clear();
-            listBox1.Items.Clear();
         }
 
         private void buttonGravar_Click(object sender, EventArgs e)
@@ -44,7 +43,6 @@ namespace FormContato
 
         private void buttonExcluir_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Clear();
             string email = Convert.ToString(textBoxEmail.Text);
             string nome = Convert.ToString(textBoxNome.Text);
             string telefone = Convert.ToString(textBoxFone.Text);
@@ -58,7 +56,6 @@ namespace FormContato
 
         private void buttonPesquisar_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Clear();
             string email = Convert.ToString(textBoxEmail.Text);
             string nome = Convert.ToString(textBoxNome.Text);
             string telefone = Convert.ToString(textBoxFone.Text);
@@ -80,7 +77,6 @@ namespace FormContato
 
         private void buttonListar_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Clear();
             foreach (Contato c in contatos.Agenda)
             {
                 listBox1.Items.Add(c.ToString());

@@ -1,0 +1,14 @@
+C:\Users\gabri\Desktop\trabs\ED\Livraria\Livraria\obj\Debug\netcoreapp3.1\Livraria.csproj.AssemblyReference.cache
+C:\Users\gabri\Desktop\trabs\ED\Livraria\Livraria\obj\Debug\netcoreapp3.1\Livraria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Desktop\trabs\ED\Livraria\Livraria\obj\Debug\netcoreapp3.1\Livraria.AssemblyInfoInputs.cache
+C:\Users\gabri\Desktop\trabs\ED\Livraria\Livraria\obj\Debug\netcoreapp3.1\Livraria.AssemblyInfo.cs
+C:\Users\gabri\Desktop\trabs\ED\Livraria\Livraria\obj\Debug\netcoreapp3.1\Livraria.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\trabs\ED\Livraria\Livraria\bin\Debug\netcoreapp3.1\Livraria.exe
+C:\Users\gabri\Desktop\trabs\ED\Livraria\Livraria\bin\Debug\netcoreapp3.1\Livraria.deps.json
+C:\Users\gabri\Desktop\trabs\ED\Livraria\Livraria\bin\Debug\netcoreapp3.1\Livraria.runtimeconfig.json
+C:\Users\gabri\Desktop\trabs\ED\Livraria\Livraria\bin\Debug\netcoreapp3.1\Livraria.runtimeconfig.dev.json
+C:\Users\gabri\Desktop\trabs\ED\Livraria\Livraria\bin\Debug\netcoreapp3.1\Livraria.dll
+C:\Users\gabri\Desktop\trabs\ED\Livraria\Livraria\bin\Debug\netcoreapp3.1\Livraria.pdb
+C:\Users\gabri\Desktop\trabs\ED\Livraria\Livraria\obj\Debug\netcoreapp3.1\Livraria.dll
+C:\Users\gabri\Desktop\trabs\ED\Livraria\Livraria\obj\Debug\netcoreapp3.1\Livraria.pdb
+C:\Users\gabri\Desktop\trabs\ED\Livraria\Livraria\obj\Debug\netcoreapp3.1\Livraria.genruntimeconfig.cache
