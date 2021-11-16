@@ -1,0 +1,20 @@
+C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\Atendimento\Atendimento\bin\Debug\Atendimento.exe.config
+C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\Atendimento\Atendimento\bin\Debug\Atendimento.exe
+C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\Atendimento\Atendimento\bin\Debug\Atendimento.pdb
+C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\Atendimento\Atendimento\obj\Debug\Atendimento.csprojAssemblyReference.cache
+C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\Atendimento\Atendimento\obj\Debug\Atendimento.Form1.resources
+C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\Atendimento\Atendimento\obj\Debug\Atendimento.Properties.Resources.resources
+C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\Atendimento\Atendimento\obj\Debug\Atendimento.csproj.GenerateResource.cache
+C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\Atendimento\Atendimento\obj\Debug\Atendimento.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\Atendimento\Atendimento\obj\Debug\Atendimento.exe
+C:\Users\Gabriel\Desktop\4º semestre\Estrutura de Dados II\Atendimento\Atendimento\obj\Debug\Atendimento.pdb
+C:\Users\gabri\Desktop\trabs\ED\Atendimento\Atendimento\bin\Debug\Atendimento.exe.config
+C:\Users\gabri\Desktop\trabs\ED\Atendimento\Atendimento\bin\Debug\Atendimento.exe
+C:\Users\gabri\Desktop\trabs\ED\Atendimento\Atendimento\bin\Debug\Atendimento.pdb
+C:\Users\gabri\Desktop\trabs\ED\Atendimento\Atendimento\obj\Debug\Atendimento.csproj.AssemblyReference.cache
+C:\Users\gabri\Desktop\trabs\ED\Atendimento\Atendimento\obj\Debug\Atendimento.Form1.resources
+C:\Users\gabri\Desktop\trabs\ED\Atendimento\Atendimento\obj\Debug\Atendimento.Properties.Resources.resources
+C:\Users\gabri\Desktop\trabs\ED\Atendimento\Atendimento\obj\Debug\Atendimento.csproj.GenerateResource.cache
+C:\Users\gabri\Desktop\trabs\ED\Atendimento\Atendimento\obj\Debug\Atendimento.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\trabs\ED\Atendimento\Atendimento\obj\Debug\Atendimento.exe
+C:\Users\gabri\Desktop\trabs\ED\Atendimento\Atendimento\obj\Debug\Atendimento.pdb
