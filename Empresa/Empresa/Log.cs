@@ -27,28 +27,16 @@ namespace Empresa
             set { tipoAcesso = value; }
         }
 
-        public Log(DateTime dtAcesso, Usuario usuario)
+        public Log(DateTime dtAcesso, Usuario usuario, bool tipoAcesso)
         {
             this.dtAcesso = dtAcesso;
             this.usuario = usuario;
-            tipoAcesso = false;
-            foreach(Ambiente ambiente in usuario.Ambientes)
-            {
-                foreach(Log log in ambiente.Logs)
-                {
-                    if(this.Equals(log))
-                    {
-                        tipoAcesso = true;
-                    }
-                }
-            }
+            this.tipoAcesso = tipoAcesso;
         }
 
         public Log()
-            : this(DateTime.Now, new Usuario())
-        {
-            tipoAcesso = false;
-        }
+            : this(DateTime.Now, new Usuario(), false)
+        { }
 
         public override string ToString()
         {

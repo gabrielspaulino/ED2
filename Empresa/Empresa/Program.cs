@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.SqlClient;
 
 namespace Empresa
 {
@@ -8,10 +9,10 @@ namespace Empresa
         {
             int opcao = 0;
             Cadastro cadastro = new Cadastro();
-            //cadastro.download();
+            cadastro.download();
             do
             {
-                Console.Write("\n0. Sair" +
+                Console.Write("\n0.Sair" +
                     "\n1.Cadastrar ambiente" +
                     "\n2.Consultar ambiente" +
                     "\n3.Excluir ambiente" +
@@ -23,7 +24,8 @@ namespace Empresa
                     "\n9.Registrar acesso" +
                     "\n10.Consultar logs de acesso" +
                     "\nDigite de acordo com a opção: ");
-                switch(opcao)
+                opcao = Convert.ToInt32(Console.ReadLine());
+                switch (opcao)
                 {
                     case 0:
                         //cadastro.upload();
@@ -35,12 +37,18 @@ namespace Empresa
                         Console.Write("Digite o nome: ");
                         string nome = Convert.ToString(Console.ReadLine());
                         cadastro.adicionarAmbiente(new Ambiente(id, nome));
-                        Console.WriteLine("Adicionado");
                         break;
                     case 2:
                         Console.Write("Digite o ID do ambiente: ");
                         id = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine(cadastro.pesquisarAmbiente(new Ambiente(id, "")).ToString());
+                        if (cadastro.pesquisarAmbiente(new Ambiente(id, "")) != null)
+                        {
+                            Console.WriteLine(cadastro.pesquisarAmbiente(new Ambiente(id, "")).ToString());
+                        }
+                        else
+                        {
+                            Console.WriteLine("Ambiente não encontrado");
+                        }
                         break;
                     case 3:
                         Console.Write("Digite o ID do ambiente: ");
@@ -53,24 +61,31 @@ namespace Empresa
                         Console.Write("Digite o nome do usuário: ");
                         nome = Convert.ToString(Console.ReadLine());
                         cadastro.adicionarUsuario(new Usuario(idUsuario, nome));
-                        Console.WriteLine("Adicionado");
                         break;
                     case 5:
                         Console.Write("Digite o id do usuário: ");
                         idUsuario = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine(cadastro.pesquisarUsuario(new Usuario(idUsuario, "")).ToString());
+                        if (cadastro.pesquisarUsuario(new Usuario(idUsuario, "")) != null)
+                        {
+                            Console.WriteLine(cadastro.pesquisarUsuario(new Usuario(idUsuario, "")).ToString());
+                        }
+                        else
+                        {
+                            Console.WriteLine("Usuário não encontrado");
+                        }
                         break;
                     case 6:
                         Console.Write("Digite o id do usuário: ");
                         idUsuario = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine(cadastro.removerUsuario(new Usuario(idUsuario, "")));
+                        Console.WriteLine(cadastro.removerUsuario(new Usuario(idUsuario, "")) ? "Removido" : "Não removido");
                         break;
                     case 7:
                         Console.Write("Digite o ID do ambiente: ");
                         id = Convert.ToInt32(Console.ReadLine());
                         Console.Write("Digite o id do usuário: ");
                         idUsuario = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine(cadastro.pesquisarUsuario(new Usuario(idUsuario, "")).concederPermissao(cadastro.pesquisarAmbiente(new Ambiente(id, ""))) ? "Concedida" : "Não concedida");
+                        bool concedeu = cadastro.pesquisarUsuario(new Usuario(idUsuario, "")).concederPermissao(cadastro.pesquisarAmbiente(new Ambiente(id, "")));
+                        Console.WriteLine(concedeu ? "Concedida" : "Não concedida");
                         break;
                     case 8:
                         Console.Write("Digite o ID do ambiente: ");
@@ -82,25 +97,32 @@ namespace Empresa
                     case 9:
                         Console.Write("Digite o ID do ambiente: ");
                         id = Convert.ToInt32(Console.ReadLine());
-                        Console.Write("Digite o id do usuário: ");
+                        Console.Write("Digite o ID do usuário: ");
                         idUsuario = Convert.ToInt32(Console.ReadLine());
                         Usuario usuario = cadastro.pesquisarUsuario(new Usuario(idUsuario, ""));
                         bool registrou = false;
-                        foreach(Ambiente ambiente in usuario.Ambientes)
+                        foreach (Ambiente a in usuario.Ambientes)
                         {
-                            if(ambiente.Id == id)
+                            if (a.Id == id)
                             {
-                                ambiente.registrarLog(new Log(DateTime.Now, usuario));
+                                if (usuario.concederPermissao(cadastro.pesquisarAmbiente(new Ambiente(id, ""))) == false)
+                                {
+                                    a.registrarLog(new Log(DateTime.Now, usuario, true));
+                                }
+                                else
+                                {
+                                    a.registrarLog(new Log(DateTime.Now, usuario, false));
+                                }
                                 registrou = true;
                             }
                         }
-                        if(registrou == true)
+                        if (registrou == true)
                         {
                             Console.WriteLine("Acesso registrado");
                         }
                         else
                         {
-                            Console.WriteLine("Acesso não registrado - ambiente não vinculado ao usuário");
+                            Console.WriteLine("Acesso não registrado - usuário não tem permissão de acesso");
                         }
                         break;
                     case 10:
@@ -108,13 +130,14 @@ namespace Empresa
                         id = Convert.ToInt32(Console.ReadLine());
                         Ambiente ambiente = cadastro.pesquisarAmbiente(new Ambiente(id, ""));
                         Console.WriteLine(ambiente.ToString() + "\nLogs:");
-                        foreach(Log log in ambiente.Logs)
+                        foreach (Log log in ambiente.Logs)
                         {
                             Console.WriteLine(log.ToString());
                         }
                         break;
                 }
             } while (opcao > 0 && opcao <= 10);
+            cadastro.upload();
         }
     }
 }
