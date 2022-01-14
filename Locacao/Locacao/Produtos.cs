@@ -6,36 +6,36 @@ namespace Locacao
 {
     class Produtos
     {
-        private List<Produto> produtos;
+        private Queue<Produto> listaProdutos;
 
         public Produtos()
         {
-            produtos = new List<Produto>();
+            listaProdutos = new Queue<Produto>();
+        }
+
+        public Queue<Produto> ListaProdutos
+        {
+            get { return listaProdutos; }
         }
 
         public Boolean adicionarProduto(Produto produto)
         {
             if (pesquisarProduto(produto) == null)
             {
-                produtos.Add(produto);
+                listaProdutos.Enqueue(produto);
                 return true;
             }
             return false;
         }
 
-        public Boolean removerProduto(Produto produto)
+        public void removerProduto()
         {
-            if (pesquisarProduto(produto) != null)
-            {
-                produtos.Remove(pesquisarProduto(produto));
-                return true;
-            }
-            return false;
+            listaProdutos.Dequeue();
         }
 
         public Produto pesquisarProduto(Produto produto)
         {
-            foreach(Produto p in produtos)
+            foreach(Produto p in listaProdutos)
             {
                 if(p.Equals(produto))
                 {

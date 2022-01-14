@@ -11,6 +11,7 @@ namespace Locacao
         private DateTime dtRetorno;
         private DateTime dtLiberacao;
         private double valorTotal;
+        private bool devolveu;
 
         public Contrato(int id, DateTime dtSaida, DateTime dtRetorno, double valorTotal)
         {
@@ -18,11 +19,14 @@ namespace Locacao
             this.dtSaida = dtSaida;
             this.dtRetorno = dtRetorno;
             this.valorTotal = valorTotal;
+            devolveu = false;
         }
 
         public Contrato()
             : this(0, DateTime.Now, DateTime.Now, 0)
-        { }
+        {
+            devolveu = false;
+        }
 
         public int Id
         {
@@ -51,6 +55,12 @@ namespace Locacao
         public double ValorTotal
         {
             get { return valorTotal; }
+        }
+
+        public bool Devolveu
+        {
+            get { return devolveu; }
+            set { devolveu = value; }
         }
 
         public bool podeRegistrar(Contrato contrato)

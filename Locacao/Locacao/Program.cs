@@ -133,7 +133,19 @@ namespace Locacao
                         }
                         break;
                     case 8:
-                        //Já faz automaticamente
+                        Console.Write("Digite o ID do equipamento: ");
+                        id = Convert.ToInt32(Console.ReadLine());
+                        encontrado = produtos.pesquisarProduto(new Produto(id, "", 0, 0));
+                        if (encontrado != null)
+                        {
+                            Console.Write("Digite o ID do contrato: ");
+                            int idContrato = Convert.ToInt32(Console.ReadLine());
+                            Console.WriteLine(encontrado.devolver(new Contrato(idContrato, DateTime.Now, DateTime.Now, 0)) ? "Devolvido" : "Não devolvido");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Equipamento não encontrado");
+                        }
                         break;
                 }
             } while (opcao > 0 && opcao <= 8);

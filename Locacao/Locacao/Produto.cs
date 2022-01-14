@@ -11,7 +11,7 @@ namespace Locacao
         private double diaria;
         private int qtdeDisponivel;
         private List<Contrato> contratos;
-        private List<Contrato> liberados;
+        private Stack<Contrato> liberados;
 
         public Produto(int id, string nome, double diaria, int qtdeDisponivel)
         {
@@ -20,14 +20,14 @@ namespace Locacao
             this.diaria = diaria;
             this.qtdeDisponivel = qtdeDisponivel;
             contratos = new List<Contrato>();
-            liberados = new List<Contrato>();
+            liberados = new Stack<Contrato>();
         }
 
         public Produto()
             : this(0, "", 0, 0)
         {
             contratos = new List<Contrato>();
-            liberados = new List<Contrato>();
+            liberados = new Stack<Contrato>();
         }
 
         public int Id
@@ -51,6 +51,16 @@ namespace Locacao
         public int QtdeDisponivel
         {
             get { return qtdeDisponivel; }
+        }
+
+        public List<Contrato> Contratos
+        {
+            get { return contratos; }
+        }
+
+        public Stack<Contrato> Liberados
+        {
+            get { return liberados; }
         }
 
         public Boolean adicionarContrato(Contrato contrato)
@@ -114,9 +124,8 @@ namespace Locacao
                 return false;
             }
             pesquisarContrato(contrato).DtLiberacao = DateTime.Now;
-            liberados.Add(pesquisarContrato(contrato));
+            liberados.Push(pesquisarContrato(contrato));
             contratos.Remove(pesquisarContrato(contrato));
-            qtdeDisponivel += 1;
             return true;
         }
 
@@ -128,6 +137,33 @@ namespace Locacao
                 retorno += "\n" + contrato.ToString() + ", Data de Liberação: " + contrato.DtLiberacao.ToString("dd/MM/yyyy");
             }
             return retorno;
+        }
+
+        public Contrato pesquisarLiberados(Contrato contrato)
+        {
+            foreach(Contrato c in liberados)
+            {
+                if (c.Equals(contrato))
+                {
+                    return c;
+                }
+            }
+            return null;
+        }
+
+        public bool devolver(Contrato contrato)
+        {
+            Contrato c = pesquisarLiberados(contrato);
+            if (c != null)
+            {
+                if (c.Devolveu == false)
+                {
+                    c.Devolveu = true;
+                    qtdeDisponivel += 1;
+                    return true;
+                }
+            }
+            return false;
         }
 
         public override bool Equals(object obj)
