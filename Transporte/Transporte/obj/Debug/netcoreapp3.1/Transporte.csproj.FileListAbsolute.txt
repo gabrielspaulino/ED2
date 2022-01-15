@@ -1,0 +1,27 @@
+C:\Users\Gabriel\Desktop\4º semestre\ed2\Transporte\Transporte\bin\Debug\netcoreapp3.1\Transporte.exe
+C:\Users\Gabriel\Desktop\4º semestre\ed2\Transporte\Transporte\bin\Debug\netcoreapp3.1\Transporte.deps.json
+C:\Users\Gabriel\Desktop\4º semestre\ed2\Transporte\Transporte\bin\Debug\netcoreapp3.1\Transporte.runtimeconfig.json
+C:\Users\Gabriel\Desktop\4º semestre\ed2\Transporte\Transporte\bin\Debug\netcoreapp3.1\Transporte.runtimeconfig.dev.json
+C:\Users\Gabriel\Desktop\4º semestre\ed2\Transporte\Transporte\bin\Debug\netcoreapp3.1\Transporte.dll
+C:\Users\Gabriel\Desktop\4º semestre\ed2\Transporte\Transporte\bin\Debug\netcoreapp3.1\Transporte.pdb
+C:\Users\Gabriel\Desktop\4º semestre\ed2\Transporte\Transporte\obj\Debug\netcoreapp3.1\Transporte.csprojAssemblyReference.cache
+C:\Users\Gabriel\Desktop\4º semestre\ed2\Transporte\Transporte\obj\Debug\netcoreapp3.1\Transporte.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Desktop\4º semestre\ed2\Transporte\Transporte\obj\Debug\netcoreapp3.1\Transporte.AssemblyInfoInputs.cache
+C:\Users\Gabriel\Desktop\4º semestre\ed2\Transporte\Transporte\obj\Debug\netcoreapp3.1\Transporte.AssemblyInfo.cs
+C:\Users\Gabriel\Desktop\4º semestre\ed2\Transporte\Transporte\obj\Debug\netcoreapp3.1\Transporte.dll
+C:\Users\Gabriel\Desktop\4º semestre\ed2\Transporte\Transporte\obj\Debug\netcoreapp3.1\Transporte.pdb
+C:\Users\Gabriel\Desktop\4º semestre\ed2\Transporte\Transporte\obj\Debug\netcoreapp3.1\Transporte.genruntimeconfig.cache
+C:\Users\gabri\Desktop\trabs\ED\Transporte\Transporte\bin\Debug\netcoreapp3.1\Transporte.exe
+C:\Users\gabri\Desktop\trabs\ED\Transporte\Transporte\bin\Debug\netcoreapp3.1\Transporte.deps.json
+C:\Users\gabri\Desktop\trabs\ED\Transporte\Transporte\bin\Debug\netcoreapp3.1\Transporte.runtimeconfig.json
+C:\Users\gabri\Desktop\trabs\ED\Transporte\Transporte\bin\Debug\netcoreapp3.1\Transporte.runtimeconfig.dev.json
+C:\Users\gabri\Desktop\trabs\ED\Transporte\Transporte\bin\Debug\netcoreapp3.1\Transporte.dll
+C:\Users\gabri\Desktop\trabs\ED\Transporte\Transporte\bin\Debug\netcoreapp3.1\Transporte.pdb
+C:\Users\gabri\Desktop\trabs\ED\Transporte\Transporte\obj\Debug\netcoreapp3.1\Transporte.csproj.AssemblyReference.cache
+C:\Users\gabri\Desktop\trabs\ED\Transporte\Transporte\obj\Debug\netcoreapp3.1\Transporte.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Desktop\trabs\ED\Transporte\Transporte\obj\Debug\netcoreapp3.1\Transporte.AssemblyInfoInputs.cache
+C:\Users\gabri\Desktop\trabs\ED\Transporte\Transporte\obj\Debug\netcoreapp3.1\Transporte.AssemblyInfo.cs
+C:\Users\gabri\Desktop\trabs\ED\Transporte\Transporte\obj\Debug\netcoreapp3.1\Transporte.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\trabs\ED\Transporte\Transporte\obj\Debug\netcoreapp3.1\Transporte.dll
+C:\Users\gabri\Desktop\trabs\ED\Transporte\Transporte\obj\Debug\netcoreapp3.1\Transporte.pdb
+C:\Users\gabri\Desktop\trabs\ED\Transporte\Transporte\obj\Debug\netcoreapp3.1\Transporte.genruntimeconfig.cache
