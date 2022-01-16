@@ -10,6 +10,16 @@ namespace Transporte
             int opcao;
             Veiculos veiculos = new Veiculos();
             Garagens garagens = new Garagens();
+            garagens.incluir(new Garagem(1, "Congonhas"));
+            garagens.incluir(new Garagem(2, "Guarulhos"));
+            garagens.pesquisarGaragem(new Garagem(1, "")).Veiculos.Push(new Veiculo(1, "AAA0000", 10));
+            garagens.pesquisarGaragem(new Garagem(1, "")).Veiculos.Push(new Veiculo(2, "AAA1111", 10));
+            garagens.pesquisarGaragem(new Garagem(1, "")).Veiculos.Push(new Veiculo(3, "AAA2222", 10));
+            garagens.pesquisarGaragem(new Garagem(1, "")).Veiculos.Push(new Veiculo(4, "AAA3333", 10));
+            garagens.pesquisarGaragem(new Garagem(2, "")).Veiculos.Push(new Veiculo(5, "AAA4444", 10));
+            garagens.pesquisarGaragem(new Garagem(2, "")).Veiculos.Push(new Veiculo(5, "AAA5555", 10));
+            garagens.pesquisarGaragem(new Garagem(2, "")).Veiculos.Push(new Veiculo(5, "AAA6666", 10));
+            garagens.pesquisarGaragem(new Garagem(2, "")).Veiculos.Push(new Veiculo(5, "AAA7777", 10));
             Viagens viagens = new Viagens();
 
             do
